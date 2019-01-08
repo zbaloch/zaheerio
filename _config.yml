@@ -24,8 +24,8 @@ github_username:  zbaloch
 
 # Build settings
 markdown: kramdown
-#theme: minima
-theme: minimal-mistakes-jekyll
+theme: minima
+#theme: minimal-mistakes-jekyll
 #remote_theme: "mmistakes/minimal-mistakes@4.14.2"
 #remote_theme: "mmistakes/minimal-mistakes@4.14.2"
 plugins:
