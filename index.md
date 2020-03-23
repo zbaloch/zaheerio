@@ -5,7 +5,7 @@ redirect_from:
   - /about
 ---
 
-# Hey 👋, I am Zaheer Baloch.
+# Hey 👋, I am Zaheer Baloch!
 
 <p style="padding-bottom: 0" class="float-left sm:float-none">
   <img class="mt-1 mr-5 mb-2 block w-16 h-16 sm:w-24 sm:h-24 sm:float-left shadow-lg" src="{{ '/assets/avatar.jpeg' | relative_url }}" alt="Avatar" />
