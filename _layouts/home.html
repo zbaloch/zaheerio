@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="markdown">
+  {{ content }}
+</div>
+
+
+
+{%- if site.categories.essays.size > 0 -%}
+  <h2 class="pb-6 text-2xl text-gray-200 font-headline font-normal">Essays</h2>
+  <ul class="pb-4">
+    {%- for post in site.categories.essays -%}
+    <li class="pb-2">
+      <h3 class="pb-px">
+        <a class="text-teal-400 font-bold border-b-2 border-teal-700" href="{{ post.url | relative_url }}">{{ post.headline | default: post.title | escape }}</a>
+      </h3>
+      {%- if post.description -%}
+      <p class="pb-3">{{ post.description }}</p>
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+
+{%- if site.categories.tech.size > 0 -%}
+  <h2 class="pb-6 text-2xl text-gray-200 font-headline font-normal">Technical Articles</h2>
+  <ul class="pb-4">
+    {%- for post in site.categories.tech -%}
+    <li class="pb-2">
+      <h3 class="pb-px">
+        <a class="text-teal-400 font-bold border-b-2 border-teal-700" href="{{ post.url | relative_url }}">{{ post.headline | default: post.title | escape }}</a>
+      </h3>
+      {%- if post.description -%}
+      <p class="pb-3">{{ post.description }}</p>
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+
+<h2 class="pb-3 text-2xl text-gray-200 font-headline font-normal">Get in touch</h2>
+
+<p class="markdown pb-6">Follow me on <a href="https://twitter.com/zaheerbaloch">Twitter</a> or email me at hey [at] zaheer.io.</p>
+
+<p class="pt-12 pb-6 text-sm text-gray-600">Subscribe <a class="text-teal-400 font-bold border-b-2 border-teal-700" href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>

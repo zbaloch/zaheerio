@@ -1,0 +1,20 @@
+[build.environment]
+  JEKYLL_ENV = "production"
+
+# Aggressively cache fonts
+[[headers]]
+  for = "/assets/fonts/*"
+  [headers.values]
+    cache-control = '''
+    public,
+    max-age=31536000
+    '''
+
+# Aggressively cache background images
+[[headers]]
+  for = "/assets/backgrounds/*"
+  [headers.values]
+    cache-control = '''
+    public,
+    max-age=31536000
+    '''

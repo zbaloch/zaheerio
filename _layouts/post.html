@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <h1 class="font-headline leading-snug text-4xl text-gray-300 font-normal" itemprop="name headline">
+      {{ page.headline | default: page.title | escape }}
+    </h1>
+
+    {%- if page.description -%}
+    <h2 class="font-headline pb-8 pt-2 leading-snug text-xl text-gray-400 font-normal">{{ page.description }}</h2>
+    {%- endif -%}
+  </header>
+
+  <div class="markdown" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <p class="mb-6 pb-4 border-b border-gray-700">
+    <time class="font-headline text-gray-600" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      Published on {{ page.date | date: "%b %-d, %Y" }}
+    </time>
+  </p>
+
+  <a href="{{ page.url | relative_url }}" hidden></a>
+</article>
+

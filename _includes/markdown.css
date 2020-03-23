@@ -1,0 +1,55 @@
+.markdown {
+  @apply leading-relaxed;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  @apply pb-4 font-headline text-gray-200 font-normal leading-snug;
+}
+
+.markdown h1 {
+  @apply pb-6 text-4xl;
+}
+
+.markdown h2 {
+  @apply pt-2 text-2xl;
+}
+
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  @apply pt-2 text-xl;
+}
+
+.markdown p {
+  @apply pb-6;
+}
+
+.markdown a {
+  @apply text-teal-400 font-bold border-b-2 border-teal-700;
+}
+
+.markdown pre.highlight {
+  @apply mb-6 p-4 bg-gray-800 overflow-auto;
+}
+
+.markdown blockquote {
+  @apply mb-6 p-4 bg-gray-800 border-l-2 border-gray-500;
+}
+
+.markdown blockquote p:last-child {
+  @apply pb-0;
+}
+
+.markdown ul {
+  @apply ml-8 pb-6 list-disc list-outside;
+}
+
+.markdown ol {
+  @apply ml-8 pb-6 list-decimal list-outside;
+}

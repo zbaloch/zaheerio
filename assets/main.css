@@ -1,0 +1,26 @@
+---
+---
+/* Front matter is necessary for Jekyll */
+
+@import "_includes/fonts";
+@import "_includes/base";
+@import "_includes/components";
+@import "_includes/syntax";
+
+/* Write your styles below this line. */
+
+@import "_includes/markdown";
+
+/* Write your styles above this line. */
+
+@tailwind utilities;
+
+.selection-teal-200::selection,
+.selection-teal-200 *::selection {
+  @apply bg-teal-200 text-gray-900;
+}
+
+.selection-teal-400::selection,
+.selection-teal-400 *::selection {
+  @apply bg-teal-400 text-gray-900;
+}

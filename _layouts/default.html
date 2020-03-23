@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% assign background_url = page.background_image | prepend:
+"/assets/backgrounds/" | relative_url %}
+
+<html lang="en">
+  {%- include head.html -%}
+  <body
+    class="bg-gray-900 bg-center bg-cover bg-fixed bg-no-repeat selection-teal-200"
+    style="background-image: url('{{ background_url }}');"
+  >
+    <div
+      class="bg-gray-900 min-h-screen text-gray-500 leading-relaxed max-w-3xl px-8 sm:pr-40 sm:pl-20 py-8"
+    >
+      {%- include header.html -%}
+      <main aria-label="Content">{{ content }}</main>
+      {%- include footer.html -%}
+    </div>
+
+    <script>
+      window.sk =
+        window.sk ||
+        function() {
+          (sk.q = sk.q || []).push(arguments);
+        };
+
+      sk("form", "init", {
+        site: "fcd6a0b7f5c2",
+        form: "newsletter",
+        element: "#opt-in-form",
+        onSuccess: function(config) {
+          var h = config.h;
+          var form = config.form;
+          var replacement = h("div", "Thanks for signing up! 👍");
+          form.parentNode.replaceChild(replacement, form);
+        }
+      });
+    </script>
+    <script defer src="https://js.statickit.com/statickit.js"></script>
+  </body>
+</html>
