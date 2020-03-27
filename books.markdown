@@ -5,7 +5,7 @@ description: "My favorite resources."
 ---
 
 # Books 
-These are some of the books that have been most influential in my journey personall and professionally (in no particular order). I hope you find them helpful, too!
+These are some of the books that have been most influential in my journey personally and professionally (in no particular order). I hope you find them helpful, too!
 
 
 - [Letters from a Stoic](https://www.amazon.com/Letters-Penguin-Classics-Lucius-Annaeus/dp/0140442103/) by Lucius Annaeus Seneca, Robin Campbell (Translator)
