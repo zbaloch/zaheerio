@@ -22,7 +22,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: "/assets/logo-square-300.png"
+      image: "/assets/logo-square-300.jpeg"
       background_image: "samuel-austin-77663-unsplash.jpg"
 
 # Build settings
