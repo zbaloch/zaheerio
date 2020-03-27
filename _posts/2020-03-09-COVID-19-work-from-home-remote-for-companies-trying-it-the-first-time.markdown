@@ -56,7 +56,7 @@ Basecamp costs $99 per month for the whole company which is way more affordable 
 Read-more about Basecamp features here at [Basecamp Features](https://basecamp.com/features)
 
 
-### 2. Zoom for audo/video conferencing
+### 2. Zoom for audio & video conferencing
 Zoom is the most reliable and clear for large group video and audio calls. 
 
 
