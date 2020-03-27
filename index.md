@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "Zaheer Balcoh — Software Engineer"
+description: "A software engineer from Pakistan currently working & living in Bahrain."
 redirect_from:
   - /about
 ---

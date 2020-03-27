@@ -7,6 +7,9 @@ description: "My favorite resources."
 # Books 
 These are some of the books that have been most influential in my journey as a software deeloper (in no particular order). I hope you find them helpful, too!
 
+
+- [Letters from a Stoic](https://www.amazon.com/Letters-Penguin-Classics-Lucius-Annaeus/dp/0140442103/) by Lucius Annaeus Seneca, Robin Campbell (Translator)
+- [Three Cups of Tea: One Man's Mission to Promote Peace ... One School at a Time](https://www.amazon.com/Three-Cups-Tea-Mission-Promote/dp/0143038257/) by Greg Mortenson, David Oliver Relin
 - [Head First Java](https://www.amazon.com/Head-First-Java-Kathy-Sierra/dp/0596009208) by Kathy Sierra, Bert Bates
 - [Are your lights on?](https://www.amazon.com/Are-Your-Lights-Figure-Problem/dp/0932633161) by y Gerald M Weinberg, Donald C Gause, Sally Cox (Illustrator)
 - [Badass: Makig Users Awesome](https://www.amazon.com/Badass-Making-Awesome-Kathy-Sierra/dp/1491919019) by Kathy Sierra
